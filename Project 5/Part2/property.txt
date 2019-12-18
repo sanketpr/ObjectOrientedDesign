@@ -1,0 +1,24 @@
+// Every Put:n leads to a Get:n
+
+P [s = "Put:1" ~~> s = "Get:1"] ;
+P [s = "Put:2" ~~> s = "Get:2"] ;
+P [s = "Put:3" ~~> s = "Get:3"] ;
+P [s = "Put:4" ~~> s = "Get:4"] ;
+P [s = "Put:5" ~~> s = "Get:5"] ;
+P [s = "Put:6" ~~> s = "Get:6"] ;
+P [s = "Put:7" ~~> s = "Get:7"] ;
+P [s = "Put:8" ~~> s = "Get:8"] ;
+P [s = "Put:9" ~~> s = "Get:9"] ;
+P [s = "Put:10" ~~> s = "Get:10"];
+
+// Every Get:n leads to Get:n+1
+
+P [s = "Get:1" ~~> s = "Get:2"] ;
+P [s = "Get:2" ~~> s = "Get:3"] ;
+P [s = "Get:3" ~~> s = "Get:4"] ;
+P [s = "Get:4" ~~> s = "Get:5"] ;
+P [s = "Get:5" ~~> s = "Get:6"] ;
+P [s = "Get:6" ~~> s = "Get:7"] ;
+P [s = "Get:7" ~~> s = "Get:8"] ;
+P [s = "Get:8" ~~> s = "Get:9"] ;
+P [s = "Get:9" ~~> s = "Get:10"];

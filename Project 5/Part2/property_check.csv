@@ -1,0 +1,131 @@
+send-put;   
+
+send-put;   receive-put;   
+
+	Schedule 1 ==> send-put  and  receive-put
+
+send-put;   
+
+Put:1
+send-put;   (send:get|receive:put);   
+
+	Schedule 2 ==> send-put  and  (send:get|receive:put)
+Put:2
+send-put;   
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 3 ==> send-put  and  (send:get|receive:put)
+Put:3
+send-put;   
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 4 ==> send-put  and  (send:get|receive:put)
+Put:4
+send-put;   
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 5 ==> send-put  and  (send:get|receive:put)
+Put:5
+send-put;   
+
+Get:1
+send-put;   send-get;   
+
+send-put;   send-get;   receive-get;   
+
+	Schedule 6 ==> send-get  and  receive-get
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 7 ==> send-put  and  (send:get|receive:put)
+Put:6
+Get:2
+send-put;   
+
+send-put;   send-get;   
+
+send-put;   send-get;   receive-get;   
+
+	Schedule 8 ==> send-get  and  receive-get
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 9 ==> send-put  and  (send:get|receive:put)
+Put:7
+Get:3
+send-put;   
+
+send-put;   send-get;   
+
+send-put;   send-get;   receive-get;   
+
+	Schedule 10 ==> send-get  and  receive-get
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 11 ==> send-put  and  (send:get|receive:put)
+Put:8
+send-put;   
+
+Get:4
+send-put;   send-get;   
+
+send-put;   send-get;   receive-get;   
+
+	Schedule 12 ==> send-get  and  receive-get
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 13 ==> send-put  and  (send:get|receive:put)
+Put:9
+Get:5
+send-put;   
+
+send-put;   send-get;   
+
+send-put;   send-get;   receive-get;   
+
+	Schedule 14 ==> send-get  and  receive-get
+
+send-put;   (send:get|receive:put);   
+
+	Schedule 15 ==> send-put  and  (send:get|receive:put)
+Put:10
+Get:6
+send-get;   
+
+send-get;   receive-get;   
+
+	Schedule 16 ==> send-get  and  receive-get
+
+(send:get|receive:put);   
+
+(send:get|receive:put);   receive-get;   
+
+	Schedule 17 ==> receive-get  and  (send:get|receive:put)
+Get:7
+(send:get|receive:put);   
+
+(send:get|receive:put);   receive-get;   
+
+	Schedule 18 ==> receive-get  and  (send:get|receive:put)
+Get:8
+(send:get|receive:put);   
+
+(send:get|receive:put);   receive-get;   
+
+	Schedule 19 ==> receive-get  and  (send:get|receive:put)
+Get:9
+(send:get|receive:put);   
+
+(send:get|receive:put);   receive-get;   
+
+	Schedule 20 ==> receive-get  and  (send:get|receive:put)
+Get:10
+receive-put;   
+
+receive-put;   receive-get;   
+
