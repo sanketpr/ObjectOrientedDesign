@@ -1,4 +1,7 @@
 ## Object Oriented Design And Analysis
+- Carried out various projects and exercises as a part of Object Oriented Design and Analysis course work
+- This gave me a better understanding of the concepts related to Design Patterns, Testing, Multithreaded Concepts etc.
+- Following is the list of all the projects and the folders contain the code for the projects.
 
 
 ### Project 1 - Intro To Java and Object Oriented Design
